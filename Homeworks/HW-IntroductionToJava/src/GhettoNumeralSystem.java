@@ -2,20 +2,20 @@ import java.util.Scanner;
 
 public class GhettoNumeralSystem {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter an integer number: ");
-        int number=Integer.parseInt(scanner.next());
+        int number = Integer.parseInt(scanner.next());
 
         int digit;
-        String result="";
+        String result = "";
 
-        if (number==0){
-            result="Gee";
+        if (number == 0) {
+            result = "Gee";
         }
 
-        while (number>0) {
-            digit=number%10;
-            number=number/10;
+        while (number > 0) {
+            digit = number % 10;
+            number = number / 10;
             switch (digit) {
                 case 0:
                     result = "Gee" + result;
