@@ -1,0 +1,3 @@
+Vowels: 13
+Vowels: 17
+Vowels: 2
